@@ -1,13 +1,13 @@
-package one.digitalinnovetion.Sundays;
+package one.digitalinnovetion.sundaysapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SundaysApplication {
+public class SundaysappApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SundaysApplication.class, args);
+		SpringApplication.run(SundaysappApplication.class, args);
 	}
 
 }
