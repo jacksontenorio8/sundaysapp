@@ -6,7 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import one.digitalinnovetion.sundaysapp.enums.PhoneType;
 
-
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
@@ -18,13 +18,11 @@ import javax.persistence.Id;
 @Data
 @Builder
 @AllArgsConstructor
-@NoArgsConstructor;
-
+@NoArgsConstructor
 public class Phone {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-
     private long id;
 
     @Enumerated(EnumType.STRING)
