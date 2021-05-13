@@ -1,4 +1,4 @@
-package one.digitalinnovetion.sundaysapp.enums;
+package one.digitalinnovation.sundaysapp.enums;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

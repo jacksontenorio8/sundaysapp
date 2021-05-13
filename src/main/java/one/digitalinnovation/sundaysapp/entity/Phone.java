@@ -1,10 +1,10 @@
-package one.digitalinnovetion.sundaysapp.entity;
+package one.digitalinnovation.sundaysapp.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import one.digitalinnovetion.sundaysapp.enums.PhoneType;
+import one.digitalinnovation.sundaysapp.enums.PhoneType;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

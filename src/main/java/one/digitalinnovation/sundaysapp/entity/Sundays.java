@@ -1,4 +1,4 @@
-package one.digitalinnovetion.sundaysapp.entity;
+package one.digitalinnovation.sundaysapp.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -22,7 +22,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 
-public class Person {
+public class Sundays {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

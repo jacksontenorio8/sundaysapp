@@ -1,4 +1,4 @@
-package one.digitalinnovetion.sundaysapp;
+package one.digitalinnovation.sundaysapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
